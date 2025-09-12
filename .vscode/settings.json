@@ -1,0 +1,28 @@
+{
+  // ✅ Always use Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ✅ Format whole file on save
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  // ✅ Run ESLint + organize imports automatically
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+
+  // ✅ Enable auto-save (optional, so you don’t even need Ctrl+S)
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 700,
+
+  // ✅ Optional: format on paste & type
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+
+  // ✅ Ensure line endings are consistent
+  "files.eol": "\n",
+
+  // ✅ Point TypeScript to local version
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
