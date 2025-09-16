@@ -21,7 +21,6 @@ export default function ReelsPettiPage() {
       console.log("inside", isFlipped)
       if (isFlipped) {
         const scrollContainer = document.querySelector(".flip-back .min-h-screen");
-        console.log(scrollContianer)
         if (scrollContainer) {
           const scrollY = scrollContainer.scrollTop;
           console.log(scrollY)
