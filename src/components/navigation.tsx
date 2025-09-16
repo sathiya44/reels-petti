@@ -8,7 +8,6 @@ interface NavigationProps {
   isMenuOpen: boolean
   toggleMenu: () => void
   scrollToTop: () => void
-  handleFlip:() => void
 }
 export function StickyHeader({ isScrolled, isMenuOpen, toggleMenu, scrollToTop }: NavigationProps) {
   return (
@@ -89,10 +88,10 @@ export function MenuOverlay({ isMenuOpen, toggleMenu }: MenuOverlayProps) {
 }
 
 interface ScrollToTopProps {
-  scrollToTop: () => void
+  handleFlip: () => void;
 }
 
-export function ScrollToTopButton({ scrollToTop, handleFlip }: ScrollToTopProps) {
+export function ScrollToTopButton({  handleFlip }: ScrollToTopProps) {
   return (
     <div className="fixed bottom-6 right-4 md:bottom-8 md:right-8 z-40">
       <button
