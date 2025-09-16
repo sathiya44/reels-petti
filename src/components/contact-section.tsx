@@ -82,7 +82,7 @@ export default function ContactSection() {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
         >
-          <h2 className="mb-6 text-4xl font-bold text-gray-900">Let's Create Together</h2>
+          <h2 className="mb-6 text-4xl font-bold text-gray-900">Let&apos;s Create Together</h2>
           <p className="text-lg text-gray-600">
             Ready to bring your vision to life? Get in touch with us.
           </p>
@@ -173,7 +173,7 @@ export default function ContactSection() {
                 </div>
                 <h3 className="mb-4 text-2xl font-bold text-gray-900">Thank You!</h3>
                 <p className="mb-6 text-gray-600">
-                  Your message has been sent successfully. We'll get back to you within 24 hours to
+                  Your message has been sent successfully. We&apos;ll get back to you within 24 hours to
                   discuss your project.
                 </p>
                 <Button
@@ -198,8 +198,8 @@ export default function ContactSection() {
             <div>
               <h3 className="mb-6 text-2xl font-bold text-gray-900">Get In Touch</h3>
               <p className="mb-8 leading-relaxed text-gray-600">
-                We'd love to hear about your project. Whether it's a commercial, documentary, or
-                creative content, let's discuss how we can bring your vision to life.
+                We&apos;d love to hear about your project. Whether it&apos;s a commercial, documentary, or
+                creative content, let&apos;s discuss how we can bring your vision to life.
               </p>
             </div>
 
