@@ -9,8 +9,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Advanced Next.js App",
-  description: "Production-ready Next.js starter",
+  title: "Reels Petti - Professional Video Production",
+  description:
+    "Professional video production services for reels, commercials, and creative content",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
