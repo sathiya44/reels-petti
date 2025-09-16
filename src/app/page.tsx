@@ -129,7 +129,6 @@ export default function ReelsPettiPage() {
                   toggleMenu={toggleMenu}
                   scrollToTop={scrollToTop}
                 />
-
                 <div
                   className="min-h-screen overflow-x-hidden overflow-y-auto bg-gray-50"
                   style={{ scrollBehavior: "smooth" }}
